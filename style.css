@@ -1,0 +1,102 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+h1 {
+    font-size: 50px;
+}
+h2{
+    font-size: 45px;
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.half-of-section{
+    width: 50%;
+    margin-left: 5%;    
+}
+.half-of-section img{
+    width: 80%;
+    
+}
+#mission-box{
+    padding: 0 10px;
+    border-left: 5px solid coral;
+    
+}
+.green-color{
+    color: yellowgreen;
+}
+.special-sign{
+    color: coral;
+    font-size: 70px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orangered,tomato,coral);
+    padding: 8px 20px;
+    border-radius: 6%;
+}
+/* first section ends......... */
+
+.second-section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.three-boxes{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 1%;
+}
+.three-boxes img{
+    height: 150px;
+    width: 150px;
+}
+.three-boxes p{
+    color: gray;
+    font-size: small;
+}
+#box-1{
+    background-color: #4F9DA61A;
+}
+#box-2{
+    background-color: #FFF4D6;
+}
+#box-3{
+    background-color: #f5c0c0;
+}
+
+/* Second section ends ........ */
+
+.third-section{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: -650px -200px;
+    display: flex;
+}
+.width-40{
+    width: 40%;
+    margin: 6%;
+    padding: 3%;
+}
+.width-40 img{
+  
+    width: 100%;
+}
+.width-60{
+    width: 60%;
+    margin: 3%;
+    padding: 3%;
+}
+.forth-section{
+    display: flex;
+}
