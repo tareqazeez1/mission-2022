@@ -80,7 +80,8 @@ h2{
 .third-section{
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position: -650px -200px;
+    background-size: 20%;
+    background-position: left top;
     display: flex;
 }
 .width-40{
@@ -99,4 +100,8 @@ h2{
 }
 .forth-section{
     display: flex;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: right bottom;
 }
